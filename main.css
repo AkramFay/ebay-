@@ -1,0 +1,339 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ----- */
+img{
+    width:100%;
+}
+/* --------- */
+.list{
+    padding: 0 10px;
+    padding-left: 40px ;
+}
+/* ------ */
+.list p{
+    display: inline-block;
+    padding: 3px 0;
+    padding-right: 18px;
+}
+/* ------- */
+.left{
+    width: 49%;
+    display: inline-block;
+}
+/* --------- */
+.right{
+    display: inline-block;
+    width: 49%;
+    padding-left: 330px;
+}
+/* --------- */
+.list img{
+    margin:0 15px ;
+}
+/* ------ */
+.bell{
+    display: inline-block;
+    width: 20px;
+    height:15px ;
+}
+/* ------- */
+.shopping_cart{
+    display: inline-block;
+    width: 20px;
+    height:15px ;
+    margin: 0 25px ;
+}
+/* ------- */
+hr{
+    opacity: 0.33;
+}
+/* ----------------------------- */
+.head{
+    padding: 0 10px;
+    padding-left: 40px ;
+    position: relative;
+    
+}
+/* ------- */
+.ebay_img{
+    margin: 15px 0;
+    width: 120px;
+    display:inline-block;
+
+
+}
+/* -------- */
+.text_shop{
+    display:inline-block;
+    margin: 0 20px;    
+    opacity: 0.5;
+    position: absolute;
+    top: 25px;
+}
+/* --------- */
+.search{
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    margin:0 100px;
+    position: absolute;
+    top: 18px;
+    width: 65%;
+    height: 50px;
+    border-radius: 50px;
+    
+
+}
+.search_icon{
+    width: 15px;
+    display:inline-block;
+    margin: 0 20px;
+}
+.search_bar{
+    display:inline-block;
+}
+.op{
+    width: 820px;
+    height:45px;
+    border: none;
+    outline: none;
+
+}
+.categories{
+    display:inline-block;
+}
+.go{
+    position: absolute;
+   left: 1010px;
+   width: 15%;
+   height: 100%;
+   background-color:#3665f3;
+   color: #fff;
+   border-radius: 50px;
+   border-color: #3665f3;
+   
+
+}
+.go:hover{
+    background-color:blue ;
+}
+
+.op:focus::placeholder{
+    visibility: hidden;
+}
+.adv{
+    opacity: 0.6;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    font-size: 18px;
+    
+}
+.adv a{
+    text-decoration:none;
+    color: black;
+}
+
+.links{
+    text-align: center;
+    padding: 10px 0;
+}
+.links a{
+    padding:0 12px;
+    color: black;
+    text-decoration: none;
+    opacity: .6;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+/* ----------------------------- */
+.sec4{
+
+    border: 20px;
+    border-width: 2px;
+    width: 1440px;
+    height: 350px;
+    margin: 20px auto;
+    background-color:#F4F3F6;
+    border-radius: 20px;
+
+}
+.text2{
+    display: inline-block;
+    width: 48%;
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    font-size: 25px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;}
+    
+.text2 p{
+    font-size: 17px;
+    padding: 15px 0;
+}
+
+.text2 input{
+    font-size: 18px;
+    margin: 10px 0;
+    width: 22%;
+    height: 45px;
+    background-color:black;
+    color: #fff;
+    border-radius: 50px;
+
+}
+.poke_img{
+    display: inline-block;
+    width: 48%;
+    position: absolute;
+    top: 100px;
+    left: 750px;
+
+
+}
+.sec5 h2{ 
+    display: block;
+    margin-left:50px ;
+    padding-top: 20px;
+    font-size: 25px;
+ } 
+
+ 
+.pic img{
+    border: 10px;
+    border-radius: 100%;
+    border-style: none;
+    border-width: 2px;
+    display: inline-block;
+    margin-left:30px ;
+
+}
+.pic{
+    width:13.5%;
+    padding: 20px 7px;
+    display: inline-block;
+    
+}
+.pic a{    
+    text-decoration: none;
+    color: black;
+}
+.link_of_img{
+    text-align: center;
+    margin-left:55px ;
+
+}
+
+.pic a:hover{
+    text-decoration: underline;
+    color: black;
+
+}
+
+.sec6{
+    border: 10px;
+    border-radius: 20px;
+    background-color: #f5f4f6;
+    width: 1400PX;
+    height: 110px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+.title input{
+    width: 159px;
+    height:44px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    position: absolute;
+    right: 70px;
+    top: 35px;
+}
+ .title {
+    border-width: 5px;
+    padding: 15px;
+    margin: 40px;
+}
+.title a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+
+}
+.sec7{
+    background-color: #F4F3F6;
+    position: relative;
+    border: 10px;
+    border-width: 2px;
+    width: auto;
+    height: 410px;
+    
+}
+.ref{
+    display: inline-block;
+    width: 19%;
+    padding: 10px 100px;
+    
+}
+.ref a{
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+.ref a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.ref ul{
+    list-style: none;
+}
+.ul1{
+    position: absolute;
+    top:40px;
+}
+.ul2{
+position: absolute;
+top: 110px;
+
+}
+.ul0{
+    position: absolute;
+    top: 160px;
+}
+.ul3{
+    position: absolute;
+    top: 160px;
+
+}
+.ref select{
+    position: absolute;
+    top: 280px;
+
+}
+.ref label{
+    position: absolute;
+    top: 260px;
+
+}
+.ref li{
+padding: 2px 0;
+}
+.sec7 p{
+    position: absolute;
+    top:375px ;
+    left: 40px;
+    opacity: .6;
+    font-size: 14px;
+}

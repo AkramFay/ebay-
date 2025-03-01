@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.ebay_img{
+    margin: 20px 30px;
+    width: 120px;
+    display:inline-block;
+
+}
+.sign p{
+    display: inline-block;
+    position: absolute;
+    top:30px ;
+    right: 80px;
+    font-size: 17px;
+    opacity: 0.5;
+}
+.sign a{
+    display: inline-block;
+    position: absolute;
+    top:30px ;
+    right: 30px;
+    font-size: 17px;
+    color: black;
+}
+.body{
+    position: relative;
+}
+.img{
+    display: inline-block;
+    
+    }
+    /* ------ */
+.reg{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 180px;
+}
+.reg h1{
+    font-size: 35px;
+    margin: 20px 0;
+}
+.border{
+    border: 1px #8F849A solid;
+    width: 370px;
+    height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 15px;
+
+}
+.switch{
+    display: inline-block;
+    margin: 5px 0;
+    border: 1px #8F849A solid;
+    width: 178px;
+    height: 35px;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    padding: 5px 0;
+    font-size: 18px;
+
+}
+
+.switch2{
+    display: inline-block;
+    margin: 5px 0;
+    border: none;
+    width: 178px;
+    height: 35px;
+    border-radius: 40px;
+    padding: 5px 0;
+    font-size: 18px;
+
+
+
+}
+.input1{
+    display: inline-block;
+    border: 1px #8F849A solid;
+    width: 178px;
+    height: 40px;
+    margin: 0 5px;
+    background-color: #F5F4F6;
+    border-radius: 7px;
+
+}
+.input2{
+    display: block;
+    border: 1px #8F849A solid;
+    width: 370px;
+    height: 40px;
+    margin: 0 5px;
+    background-color: #F5F4F6;
+    border-radius: 7px;
+
+}
+.form input {
+    margin-bottom: 15px;
+}
+.form input::placeholder{
+font-size: 15px;
+padding: 0 10px;
+}
+.form input:focus{
+    background-color: white;
+    font-size: 17px;
+    padding-left: 10px;
+
+}
+.form input:focus::placeholder{
+    /* visibility: hidden; */
+    font-size: 13px;
+}
+
+.reg .info{
+    margin: 10px 5px;
+    opacity: 0.6;
+    font-size: 14px;
+
+}
+.sub{
+    border: 1px #8F849A solid;
+    background-color:#47404F;
+    color: white;
+    font-size: 18px;
+    width: 390px;
+    height: 47px;
+    text-align: center;
+    border-radius: 30px;
+    margin:15px 0;
+}
+.icons{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+
+}
+.icons h2{
+    display: inline-block;
+    border: 2px #8F849A solid;
+    border-radius:20px ;
+    width: 25%;
+    height: 40px;
+    font-size: 18px;
+    margin:0 10px;
+    padding-top:6px ;
+}
+.sec3 p{
+    margin: 30px 60px;
+    opacity: .6;
+}
